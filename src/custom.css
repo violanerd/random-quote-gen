@@ -1,0 +1,64 @@
+/* custom color palette */
+
+:root {
+    --primary-color: #0D3B66;
+    --secondary-color: #FAF0CA;
+    --third-color: #F4D35E;
+    --fourth: #EE964B;
+    --fifth: #F95738;
+  }
+
+  .card {
+    width: 500px;
+    height: auto;
+    border: 10px solid var(--fifth);
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    background-clip: padding-box;
+    padding: 20px;
+  }
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--secondary-color);
+  }
+  .card-text-quote {
+    font-style: italic;
+    font-size: x-large;
+  }
+  .btn {
+    background-color: var(--fourth);
+    border: 3px solid var(--third-color);
+    border-radius: 20px;
+    height: 40px;
+    width: 100px;
+   
+    font-weight: bold;
+  }
+  .btn:hover {
+    background-color: var(--third-color);
+    transform: scale(1.1);
+  }
+  .icon {
+    padding: 5px;
+    margin-right: 10px;
+    background-color: aliceblue;
+    color: var(--primary-color);
+    height: auto;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .icon:hover {
+    background-color: var(--third-color);
+    transform: scale(1.1);
+  }
+  
